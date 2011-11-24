@@ -5,7 +5,7 @@ module ZOrder
 end
 
 class Ball
-  attr_accessor :x, :y, :image, :velocity_x, :velocity_y
+  attr_accessor :x, :y, :velocity_x, :velocity_y
 
   def initialize(window)
     @x = rand(window.width)
