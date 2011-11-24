@@ -8,8 +8,8 @@ class Ball
   attr_accessor :x, :y, :image, :velocity_x, :velocity_y
 
   def initialize(window)
-    @x = window.width / 2
-    @y = window.height / 2
+    @x = rand(window.width)
+    @y = rand(window.height)
     @velocity_x = 2.0
     @velocity_y = 2.0
 
