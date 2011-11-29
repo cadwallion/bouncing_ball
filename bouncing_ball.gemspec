@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Andrew Nordman"]
   s.email       = ["cadwallion@gmail.com"]
   s.homepage    = "https://github.com/cadwallion/bouncing_ball"
-  s.summary     = %q{Format and validate a URL in Active Record}
+  s.summary     = %q{Demonstration of bouncing ball in Gosu}
   s.description = %q{Demonstration of bouncing ball in Gosu}
 
   s.rubyforge_project = "bouncing_ball"
