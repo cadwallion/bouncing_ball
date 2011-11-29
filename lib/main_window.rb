@@ -3,7 +3,6 @@ require 'zorder'
 require 'ball'
 
 class MainWindow < Gosu::Window
-
   TITLE = "Bouncing Ball"
 
   def initialize
